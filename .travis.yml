@@ -6,4 +6,4 @@ before_install:
   - docker build -t moe/react-app -f Dockerfile.dev .
 
 script:
-   - docker run moe/react-app npm run test -- --coverage
+   - docker run moe/react-app npm run test -- --coverage 
